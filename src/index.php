@@ -18,5 +18,10 @@
         }
     ?>
     </ul>
+    <p> La ruta del servidor es:
+    <?php
+    echo $_SERVER['PHP_SELF'];
+    ?>
+    </p>
 </body>
 </html>
