@@ -20,7 +20,7 @@
     </ul>
     <p> La ruta del servidor es:
     <?php
-    echo "http://" . $_SERVER['SERVER_NAME'] . dirname($_SERVER['PHP_SELF']);
+    echo  "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
     ?>
     </p>
 </body>
